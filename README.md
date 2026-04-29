@@ -1,7 +1,7 @@
 Smart Parking System with Wrong Parking Detection
 A high-fidelity IoT solution that bridges Hardware (Arduino) and Software (Python GUI) to manage parking infrastructure. The system features automated slot allocation, real-time occupancy tracking using Ultrasonic sensors, and an intelligent verification logic to detect unauthorized parking.
 
-✨ Key Features
+ Key Features
 Intelligent Allocation: Automatically finds the nearest vacant slot and assigns it via License Plate Number (LPN).
 
 Hardware-Software Sync: Real-time data sync between Arduino sensors and Python dashboard.
@@ -21,7 +21,7 @@ Database: SQLite3
 
 Hardware: Arduino Uno, 3x HC-SR04 Ultrasonic Sensors, 6x LEDs (Red/Green)
 
-📂 Project Structure
+ Project Structure
 Plaintext
 smart-parking-system/
 │
@@ -74,7 +74,8 @@ Run the application:
 
 Bash
 python main.py
-🧠 System Logic Flow
+
+System Logic Flow
 Input: Operator enters the car's LPN in the Python GUI.
 
 Allocation: System finds a vacant slot, updates the DB to waiting, and sends a command to Arduino to turn on the Green LED for that slot.
