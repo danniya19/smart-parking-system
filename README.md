@@ -1,3 +1,7 @@
+Team Members / Collaborators
+Daniya Mehmood 
+Zainab RAfique
+
 Smart Parking System with Wrong Parking Detection
 A high-fidelity IoT solution that bridges Hardware (Arduino) and Software (Python GUI) to manage parking infrastructure. The system features automated slot allocation, real-time occupancy tracking using Ultrasonic sensors, and an intelligent verification logic to detect unauthorized parking.
 
